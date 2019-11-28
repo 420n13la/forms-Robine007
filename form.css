@@ -4,5 +4,72 @@ body{
 
 #wrapper{
 	width: 70%;
+	margin: auto;
+	color: #ff5c33;
 }
 
+legend{
+	text-align: center;
+	background-color: #ff5c33;
+	color: white;
+	padding: 10px;
+}
+
+input{
+	width:100%;
+	margin: 15px auto;
+	border: none;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+select, #status{
+	width: 100%;
+	border: none;
+	margin: 15px auto;
+	padding: 5px;
+	overflow: hidden;
+}
+
+option, .status{
+	color: #b32400;
+	opacity: 0.4;
+	padding: 5px;
+}
+
+option:checked{
+	background-color: lightgray;
+	color: black;
+	opacity: 1;
+}
+
+option:hover{
+	background-color: lightgray;
+	color: black;
+	opacity: 1;
+}
+
+textarea{
+	width: 100%;
+	border: none;
+	margin: 15px auto;
+}
+
+input[type=button], [type=submit], [type=reset]{
+	background-color: #ff5c33;
+	color: white;
+	border: none;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+fieldset{
+	border: none;
+	margin-bottom: 50px;
+	background-color: #ffebe6;
+}
+
+::placeholder{
+	color: #b32400;
+	opacity: 0.4;
+}

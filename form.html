@@ -11,24 +11,24 @@
 	<form>
 	<fieldset>
 	<legend>Registration</legend>
-		Username<input type="text" name="username" value="Enter your full name">
-		Status
-		<select>
-			<option>Student</option>
-		</select>
-		E-mail<input type="email" name="email" value="Enter your professional address"></br></br>
-		Phone<input type="tel" name="phone" value="514-123-5577">
-		Website<input type="url" name="website" value="http://">
-		About<textarea></textarea>
+		Username<input type="text" name="username" placeholder="Enter your full name">
+		Status</br>
+		<select id="status" name="status">
+			<option class="status">Student</option>
+		</select></br>
+		E-mail<input type="email" name="email" placeholder="Enter your professional address"></br></br>
+		Phone<input type="tel" name="phone" placeholder="514-123-5577">
+		Website<input type="url" name="website" placeholder="http://">
+		About</br><textarea></textarea></br>
 		Cities you visited
-		<select>
+		<select name="cities" multiple>
 			<option>London</option>
 			<option>Montreal</option>
 			<option>New York</option>
 			<option>Paris</option>
 		</select>
-		Password<input type="password" name="password" value="*********">
-		Confirm Password<input type="password" name="password" value="*********">
+		Password<input type="password" name="password" placeholder="*********">
+		Confirm Password<input type="password" name="password" placeholder="*********">
 		<input type="submit" value="Register"> <input type="reset" value="Clear">
 	</fieldset>
 	</form>
